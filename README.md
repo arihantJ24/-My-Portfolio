@@ -1,0 +1,1 @@
+This portfolio website showcases the work of a creative professional. It features a portfolio of projects, a blog, and contact information. Visitors can explore the portfolio to get an idea of the creative's style and skills, read the blog to learn more about their work, and contact them for inquiries.
