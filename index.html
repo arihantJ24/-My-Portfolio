@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website Design | Arihant Jain</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Arihant.</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#coding">Coding Journey</a>
+        <a href="#project">Project</a>
+        <a href="#contact ">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section  -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Arihant Jain</h1>
+        
+        <div class="text-animate"> <h3>I'm a</h3><span class="multiple-text">Frontend Developer</span>
+        </div>
+        <p>
+          Hello there! I'm Arihant Jain, a prefinal year student pursuing my
+          B.Tech in Information Technology. I have an insatiable fascination for
+          technology and a keen interest in development and coding. Join me on
+          my portfolio website as I showcase my projects and explore the amazing
+          world of technology. Let's innovate together!
+        </p>
+
+        <div class="social-media">
+          <a href="https://twitter.com/arihant_2jain4" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/arihantaj24/" target="_blank"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="https://github.com/arihantJ24" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="mailto:jainarihant.aj20@gmail.com" target="_blank"
+            ><i class="bx bxl-gmail"></i
+          ></a>
+        </div>
+        <a href="img/IIEST_RESUME_1.pdf" download class="btn"> Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="img/m.jpeg" />
+      </div>
+    </section>
+
+    <!-- about  -->
+    <section class="about" id="about">
+      <div class="about-img about-col-1">
+        <img src="img/profile.jpeg" alt="use img" />
+      </div>
+      <div class="about-content about-col-2">
+        <h2 class="heading">About <span>Me</span></h2>    
+        <p>
+          I am Arihant Jain, a 3rd-year undergraduate student pursuing a B.Tech
+          degree in Engineering from the Department of Information Technology at
+          IIEST-Shibpur, a renowned national institute of technology, I am
+          excited to share my future plans. My passion for technology and
+          problem-solving has driven me towards a career as a software engineer.
+        </p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-links" onclick="opentab('skills')" style="font-size : 2rem ;"> Skills </p>
+          <p class="tab-links" onclick="opentab('experience')" style="font-size : 2rem ;" >Experience</p>
+          <p class="tab-links" onclick="opentab ('education')" style="font-size : 2rem ;" >Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li>
+              <span>Languages</span><br />
+            <div>  C++ · C · HTML · Python · JavaScript</div>
+            </li>
+            <li>
+              <span>CourseWork</span><br/>
+              <div>DSA • Oops • Automata • Development</div>
+            </li>
+
+            <li>
+              <span>FrameWork </span><br />
+              <div>Reacts.js • Node.js • Tailwind Css • BootStrap</div>
+            </li>
+            <li>
+              <span>Tools </span><br />
+              <div>Git • GitHub • OpenCV • Matlab</div>
+            </li>
+
+            <li>
+              <span>Freelance</span><br />
+              <div>Teaching • Content Writing • Graphic Designer •Pitch Desk Maker</div>
+            </li>
+            <li>
+              <span>Soft Skills</span><br />
+              <div>Team Work • Leardership • Management • Communication • Writing</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li>
+              <span>Subject Matter Expert</span>
+              <div>
+              <br />
+              Chegg India · Freelance <br />
+              Responsibility :-
+              <br />
+              In my role at Chegg India, I am responsible for providing expert
+              support to students and helping them succeed in their studies.
+              Whether it's answering questions about difficult concepts or
+              providing guidance on assignments, I am dedicated to helping my
+              clients reach their academic and professional goals.In my role at
+              Chegg India, I am responsible for providing expert support to
+              students and helping them succeed in their studies. Whether it's
+              answering questions about difficult concepts or providing guidance
+              on assignments. Skills: Online Teaching ·
+              Freelancing · Problem Solving<br />April 2022 - May 2023
+              </div>
+            </li>
+            <li>
+              <span>Content Creator</span><br />
+              creating content for crypso a social app for crypto. <br />
+              Responsibly :- creating content , finding upcoming project do
+              research on them, news writer.<br />Crypso · Part-timeCrypso ·
+              Part-time<br/>Feb 2022 - Jul 2022 · 6 mos
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li>
+              <span>Graduation</span>
+              <div><br class="space"/>Indian Institute Of Engineering Science And Technology,
+              Shibpur
+              <br />
+              Bachelor in Technology - BTech, Information Technology
+              <br />Cgpa: 8.03
+              <br />
+              Dec 2021 - Jul 2025</div>
+            </li>
+
+            <li>
+              <span>Senior Secondary Education </span>
+              <div>
+ <br />Noble Children Academy H.S. School, Jabalpur
+              <br />Percentage : 96.4%
+              <br />
+              2020-2021
+              </div>
+             
+            </li>
+
+            <li>
+              <span>Secondary Education</span>
+              <div><br />Ideal Public School Sahajpur
+              <br />Percentage : 94.6%
+              <br />
+              2018-2019</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- coding section  -->
+
+    <section class="coding" id="coding">
+      <h2 class="heading">My <span>Coding Journey</span></h2>
+      <div class="coding-container">
+        <div class="coding-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Leet Code</h3>
+          <p>
+            In Leetcode I solve 200+ question comprises of Easy, Medium and Hard
+            and having rating of <b>1430</b>.
+          </p>
+          <a href="https://leetcode.com/Arihant20/" target="_blank" class="btn"
+            >visit here</a
+          >
+        </div>
+        <div class="coding-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>CodeForces</h3>
+          <p>
+            I solve 100+ questions on codeforce and having a contest rating of
+            max <b>812</b>.
+          </p>
+          <a
+            href="https://codeforces.com/profile/arihjain"
+            target="_blank"
+            class="btn"
+            >visit here</a
+          >
+        </div>
+        <div class="coding-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Code Chef</h3>
+          <p>
+            I am 2 star in Code Chef,I have solve 250+ coding question and give
+            10+ contests and having maximum rating of <b>1562</b>.
+          </p>
+          <a
+            href="https://www.codechef.com/users/noob_jain20"
+            target="_blank"
+            class="btn"
+            >visit here</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- project section -->
+
+    <section class="project" id="project">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="project-container">
+        <div class="project-box">
+          <img src="img/letter.png" alt="" />
+          <div class="project-layer">
+            <h4>Text-Utils</h4>
+            <p>
+              <b>
+                The Text Details Tool is a simple yet powerful utility that
+                allows you to perform various operations on text, such as
+                counting word and character frequencies, transforming case,
+                capitalization, and removing spaces. Whether you need to analyze
+                text data or modify the formatting of a document, this tool has
+                got you covered.</b
+              >
+            </p>
+            <a href="https://text-details.netlify.app/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="img/a.jpeg" alt="" />
+          <div class="project-layer">
+            <h4>Arih-GPT</h4>
+            <p>
+              This Arih-GPT is a clone of the popular OpenAI ChatGPT-3. It is
+              designed to provide a conversational AI experience that is similar
+              to GPT-3, but with a few modifications. The project will use a
+              combination of natural language processing and machine learning
+              techniques to create a chating web page that can understand and
+              respond to user input and also generate the image for the given
+              description.
+            </p>
+            <a href="https://openai-arih-gpt.vercel.app/chatgpt" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="img/c.jpeg" alt="" />
+          <div class="project-layer">
+            <h4>CreativityGenie BOT</h4>
+            <p>
+              This Telegram bot is based on OpenAI's ChatGPT, a powerful natural
+              language processing (NLP) model that can generate human-like
+              conversations. It can be used to create engaging conversations
+              with users, answer questions, and provide helpful information
+            </p>
+
+            <a href="https://t.me/daifdflkfdbot" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="img/e.png" alt="" />
+          <div class="project-layer">
+            <h4>News-Updates</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              laboriosam. Quam, maxime!
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section  -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form name="submit-to-google-sheet" action="#">
+        <div class="input-box">
+        <input type="text" name="Name" placeholder="Your Name" required>
+         <input type="Email" name="Email" placeholder="Your E-mail" required>
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        
+        <button type="Submit" class="btn">Submit </button>
+      </form>
+      <span id="msg"></span>
+    </section>
+
+
+    <!-- footer section  -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>copyright &copy 2023 by Arihant Jain. Made with❤️</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- github js repo -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
